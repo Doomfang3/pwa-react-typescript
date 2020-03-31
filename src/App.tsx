@@ -16,6 +16,9 @@ const App: React.FC = () => (
           </li>
         </ul>
       </nav>
+      <button type="button" id="install-pwa">
+        Install
+      </button>
       <Switch>
         <Route path="/about">
           <About />
